@@ -9,6 +9,7 @@ const SectionWrapper = (Component, idName) =>
   function HOC() {
     return (
       <motion.section>
+        {/* 1.21.00 */}
         <Component />
       </motion.section>
     );
